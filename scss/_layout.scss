@@ -1,0 +1,120 @@
+// Body style code start
+body {
+  font-family: "Vazir", tahoma;
+}
+// Body style code end
+
+// Footer head style code start
+.ui-footer-head-div {
+  .ui-footer-logo-div {
+    img {
+      width: 30%;
+
+      @media screen and (max-width: 650px) {
+        width: 40%;
+      }
+    }
+  }
+
+  p {
+    span {
+      font-size: 14px;
+
+      @media screen and (max-width: 650px) {
+        font-size: 12px;
+      }
+    }
+  }
+}
+// Footer head style code start
+
+// Foter Icon Style Code Start
+.ui-footer-icons {
+  img {
+    width: 30%;
+
+    @media screen and (max-width: 992px) {
+      width: 35%;
+    }
+
+    @media screen and (max-width: 768px) {
+      width: 20%;
+    }
+
+    @media screen and (max-width: 650px) {
+      width: 25%;
+    }
+  }
+
+  p {
+    @media screen and (max-width: 332px) {
+      font-size: 14px;
+    }
+  }
+}
+// Foter Icon Style Code End
+
+// Footer Cols Style Code Start
+.ui-footer-cols {
+  h4 {
+    @media screen and (max-width:425px) {
+      font-size: 20px;
+    }
+
+    @media screen and (max-width:375px) {
+      font-size: 19px;
+    }
+
+    @media screen and (max-width:332px) {
+      font-size: 18px;
+    }
+  }
+
+  ul {
+
+    a {
+      transition: color linear 0.1s;
+
+      &:hover {
+        color: #ee345f !important;
+      }
+    }
+    a,
+    li {
+      @media screen and (max-width: 425px) {
+        font-size: 14px;
+      }
+
+      @media screen and (max-width: 375px) {
+        font-size: 13px;
+      }
+
+      @media screen and (max-width: 332px) {
+        font-size: 12px;
+      }
+    }
+  }
+
+  .ui-social-media-div {
+    a {
+      transition: color linear 0.1s;
+
+      &:hover {
+        color: #ee345f !important;
+      }
+
+      @media screen and (max-width: 425px) {
+        font-size: 28px;
+      }
+
+      @media screen and (max-width: 375px) {
+        font-size: 25px;
+      }
+
+      @media screen and (max-width: 332px) {
+        font-size: 23px;
+      }
+    }
+  }
+}
+// Footer Cols Style Code End

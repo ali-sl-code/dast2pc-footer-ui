@@ -1,0 +1,138 @@
+@font-face {
+  font-family: "Vazir";
+  src: url("../fonts/vazir.eot") format("eot"), url("../fonts/vazir.ttf") format("truetype"), url("../fonts/vazir.woff") format("woff"), url("../fonts/vazir.woff2") format("woff2");
+}
+
+.dir-rtl {
+  direction: rtl !important;
+}
+
+.dir-ltr {
+  direction: ltr !important;
+}
+
+body {
+  font-family: "Vazir", tahoma;
+}
+
+.ui-footer-head-div .ui-footer-logo-div img {
+  width: 30%;
+}
+
+@media screen and (max-width: 650px) {
+  .ui-footer-head-div .ui-footer-logo-div img {
+    width: 40%;
+  }
+}
+
+.ui-footer-head-div p span {
+  font-size: 14px;
+}
+
+@media screen and (max-width: 650px) {
+  .ui-footer-head-div p span {
+    font-size: 12px;
+  }
+}
+
+.ui-footer-icons img {
+  width: 30%;
+}
+
+@media screen and (max-width: 992px) {
+  .ui-footer-icons img {
+    width: 35%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .ui-footer-icons img {
+    width: 20%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .ui-footer-icons img {
+    width: 25%;
+  }
+}
+
+@media screen and (max-width: 332px) {
+  .ui-footer-icons p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .ui-footer-cols h4 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .ui-footer-cols h4 {
+    font-size: 19px;
+  }
+}
+
+@media screen and (max-width: 332px) {
+  .ui-footer-cols h4 {
+    font-size: 18px;
+  }
+}
+
+.ui-footer-cols ul a {
+  transition: color linear 0.1s;
+}
+
+.ui-footer-cols ul a:hover {
+  color: #ee345f !important;
+}
+
+@media screen and (max-width: 425px) {
+  .ui-footer-cols ul a,
+  .ui-footer-cols ul li {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .ui-footer-cols ul a,
+  .ui-footer-cols ul li {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 332px) {
+  .ui-footer-cols ul a,
+  .ui-footer-cols ul li {
+    font-size: 12px;
+  }
+}
+
+.ui-footer-cols .ui-social-media-div a {
+  transition: color linear 0.1s;
+}
+
+.ui-footer-cols .ui-social-media-div a:hover {
+  color: #ee345f !important;
+}
+
+@media screen and (max-width: 425px) {
+  .ui-footer-cols .ui-social-media-div a {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .ui-footer-cols .ui-social-media-div a {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 332px) {
+  .ui-footer-cols .ui-social-media-div a {
+    font-size: 23px;
+  }
+}
+/*# sourceMappingURL=style.min.css.map */
